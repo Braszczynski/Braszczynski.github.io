@@ -1,0 +1,159 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+   a {
+    color: inherit;
+
+    text-decoration: none;
+}
+
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+    padding: 0px;
+
+
+}
+.logo > *{
+    width: 15vh;
+    justify-self: flex-start;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    overflow-x: hidden;
+    
+}
+
+.button:hover{
+    transform: scale(1.1);
+}
+.button:hover > * {
+    transform: scale(1.1);
+}
+
+.basket > *{
+    align-self: center;
+    justify-self: flex-end;
+    align-content: center;
+    width: 8vh;
+    -webkit-filter: drop-shadow(3px 3px 10px);
+    
+}
+.basket{
+    align-self: center;
+    justify-self: flex-end;
+    align-content: center;
+
+}
+
+
+.topBar{
+    background-color: #0070BA;
+    align-self: flex-start;
+    justify-self: flex-start;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-content: center;
+
+    
+}
+.menu{
+    display: flex;
+    margin-left: 20vh;
+    flex: 1;
+    flex-grow: 1;
+    width: 50vh;
+    justify-content: flex-end;
+    justify-self: flex-end;
+    align-self: center;
+    font-family: "Courier New";
+    color: white;
+    font-size: 3vh;
+    font-weight: 900;
+    text-shadow: 3px 3px 10px black;
+
+}
+.menu > *{
+    padding: 3vh;
+}
+
+.loupe > *{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 8vh;
+    -webkit-filter: drop-shadow(20px 20px 20px);
+}
+
+.searchBar{
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 8vh;
+    width: 90vh;
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: 40vh;
+    
+}
+
+
+.blue{
+    display:flex;
+    flex-grow: 1;
+    margin-inline: -5vh;
+    height: 80hv;
+    align-content: center;
+    align-items: stretch;
+    
+    
+    
+}
+
+.blue > *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: #0070BA;
+    font-family: "Courier New";
+    color: white;
+    font-size: 3vh;
+    font-weight: 900;
+    border-color: #D1D1D1;
+    border-width: 0.1px;
+    border-style: solid;
+    text-align: center;
+    padding: 2vh 2vh 2vh;
+
+
+
+}
+
+.textField{
+    display: flex;
+    background-color: #D1D1D1;
+    border-radius: 5vh;
+    align-items: center;
+    justify-items: flex-start;
+    margin-left: 5px;
+    font-family: "Courier New";
+    color: #535353;
+    font-size: 2vh;
+    width: 90vh;
+    font-weight: 900;
+}
+
+.textField > *{
+    margin-left: 2vh;
+}
