@@ -140,7 +140,7 @@ html,body
 
 }
 
-.textField{
+.searchText{
     display: flex;
     background-color: #D1D1D1;
     border-radius: 5vh;
@@ -154,9 +154,17 @@ html,body
     font-weight: 900;
 }
 
-.textField > *{
-    margin-left: 2vh;
+.searchText > *{
+    margin-left: 4vh;
 }
+
+.searchText input[type=text] {
+    border: none;
+    background-color: #D1D1D1;
+    font-size: 20px;
+    outline-width: 0;
+    width: 560px;
+  }
 
 .filters{
     margin-top: 20vh;
@@ -192,6 +200,20 @@ html,body
 
 .category > *{
     margin: 10vh;
+    
+}
+
+.meatCheck:hover{
+    transform: scale(1.1);
+    
+}
+.vegetablesCheck:hover{
+    transform: scale(1.1);
+    
+}
+.cheeseCheck:hover{
+    transform: scale(1.1);
+    
 }
 
 
