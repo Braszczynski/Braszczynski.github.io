@@ -46,19 +46,15 @@
             </div>
         </div>
         <div class = "newProduct">
-            <div class = "left">
-                <div>Name: </div>
-                <div>Price: </div>
-                <div>Description: </div>
-            </div>
-            <div class="middle">
-                <div>ADD PHOTO: </div>
-            </div>
-            <div class="right">
-                <div id = "add"class="button blue">
-                    ADD NEW PRODUCT
-                </div>
-            </div> 
+            <form id="newProductForm">
+                <div>Name of the item: <input type="text" ></div>
+                <div>Price: <input type="number" min="0" ></div>
+                <div>Add a photo: <input type="button"></div>
+                <div>Description:</div>
+                <textarea name="Description" form = "newProductForm" placeholder="Description..."></textarea>
+                <div><input type="submit" value="Add product"></div>
+            </form>
+            
         </div>
         <div class = "yourProducts">
             <div>
