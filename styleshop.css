@@ -158,6 +158,8 @@ html,body
     margin-left: 4vh;
 }
 
+
+
 .searchText input[type=text] {
     border: none;
     background-color: #D1D1D1;
@@ -253,3 +255,4 @@ html,body
     align-self: flex-end;
     justify-content: center;
 }
+
