@@ -55,6 +55,10 @@ html,body
 
 }
 
+.price input[type=number] {
+    border: 3px solid black;
+    border-radius: 8px;
+  }
 
 .topBar{
     background-color: #0070BA;
@@ -218,6 +222,23 @@ html,body
     
 }
 
+.onestar:hover{
+    transform: scale(1.1);
+}
+
+.twostar:hover{
+    transform: scale(1.1);
+}
+.threestar:hover{
+    transform: scale(1.1);
+}
+.fourstar:hover{
+    transform: scale(1.1);
+}
+.fivestar:hover{
+    transform: scale(1.1);
+}
+
 
 
 .prices{
@@ -256,3 +277,6 @@ html,body
     justify-content: center;
 }
 
+fieldset{
+    border: none;
+}
